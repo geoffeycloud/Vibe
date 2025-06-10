@@ -48,7 +48,7 @@ def respond(user_query):
                 found = True
                 break
         if not found:
-            print("🤖 CryptoBuddy: Hmm... Nothing matches that perfectly, but Ethereum is a safe bet. 💡\n")
+            print("🤖 CryptoBuddy: Hmm... Nothing matcheshi that perfectly, but Ethereum is a safe bet. 💡\n")
 
     elif "energy" in user_query:
         eco_friendly = [coin for coin, data in crypto_db.items() if data["energy_use"] == "low"]
