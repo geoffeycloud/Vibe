@@ -62,3 +62,22 @@ Sample conversation:
 
 You: Which crypto should I buy for long-term growth?  
 CryptoBuddy: Cardano (ADA) is trending up and has a top-tier sustainability score! 🚀 
+
+# CO₂ Emissions Analysis and Prediction
+
+## 🌍 SDG Problem
+This project addresses SDG 13: Climate Action, analyzing historical CO₂ emissions and predicting future trends to inform policy and awareness.
+
+## 🤖 ML Approach
+We used Linear Regression to model historical CO₂ emissions data and predict future emissions over the next 10 years.
+
+## 📊 Results
+- R² Score: 0.54 (moderate correlation)
+- Emissions predicted to increase steadily if current trends continue
+
+## ⚖️ Ethical Considerations
+- Predictions depend heavily on historical data; socioeconomic factors or climate policy changes could disrupt trends
+- Important to contextualize findings and avoid overreliance on linear extrapolation
+
+## 📁 Data Source
+Kaggle: patricklford/global-co-emissions
